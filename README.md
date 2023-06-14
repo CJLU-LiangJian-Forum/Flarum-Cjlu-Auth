@@ -6,6 +6,4 @@ A [Flarum](http://flarum.org) extension. 中国计量大学用户认证
 
 Install with composer:
 
-```sh
-composer require foskytech/cjlu-auth
-```
+`packagist` 传上去了无法正常安装，研究一下本地安装吧
