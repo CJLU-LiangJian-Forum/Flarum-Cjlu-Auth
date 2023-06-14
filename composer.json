@@ -1,0 +1,38 @@
+{
+    "name": "foskytech/cjlu-auth",
+    "description": "中国计量大学用户认证",
+    "keywords": [
+        "flarum",
+        "auth",
+        "cjlu"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.3",
+        "flarum/core": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "FoskyTech\\CjluAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "FoskyM",
+            "email": "i@mouse123.cn",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "flarum-extension": {
+            "title": "Cjlu Auth",
+            "category": "",
+            "icon": {
+                "name": "fas fa-id-badge",
+                "color": "#ffffff",
+                "backgroundColor": "#2191F3"
+            }
+        }
+    }
+}

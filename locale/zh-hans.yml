@@ -1,0 +1,27 @@
+cjlu-auth:
+  admin:
+    settings:
+      serverUrl: WiseduLoginApi 地址
+  forum:
+    alerts:
+      limit: 在您验证身份之前，我们临时限制了您账户的操作权限。
+      link_success: 绑定成功
+      error: 绑定出错
+      toLink: 前往验证
+      unlink_success: 解绑成功
+      user_exist: 此用户已被绑定
+    modals:
+      link:
+        title: 通过 CJLU 统一认证验证身份
+        user: 账号
+        pass: 密码
+      unlink:
+        title: 解绑
+        confirm: 确定
+        cancel: 取消
+        no_providers: 解绑后您的账户权限将受到一些限制
+    buttons:
+      link: 验证
+      has_bind: 已验证
+      unlink: 解绑
+      submit: 提交
